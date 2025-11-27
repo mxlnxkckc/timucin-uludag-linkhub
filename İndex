@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timuçin Uludağ | 3D Character Artist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* CSS Başlangıcı: Siyah arkaplan, beyaz yazı */
+        body {
+            background-color: #1a1a1a; /* Koyu Gri Arkaplan */
+            color: #f0f0f0; /* Beyazımsı Yazı */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Daha modern font */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px; /* Daha büyük başlık */
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 40px;
+            color: #aaa;
+        }
+
+        .button {
+            display: flex; /* İkon ve metni yanyana hizala */
+            align-items: center; /* Dikeyde ortala */
+            justify-content: center; /* Yatayda ortala */
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #f0f0f0;
+            background-color: #333; /* Buton Arkaplanı */
+            border: 2px solid #555;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .button i { /* İkonlar için stil */
+            margin-right: 10px; /* Metinle ikon arası boşluk */
+            font-size: 20px;
+        }
+
+        .button:hover {
+            background-color: #007bff; /* Mavi Vurgu */
+            border-color: #007bff;
+        }
+
+        /* En alta yapımcı notu */
+        .footer-note {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Timuçin Uludağ</h1>
+        <p>3D Character Artist Student | Game Dev Focus.</p>
+
+        <a href="https://www.artstation.com/timucinuludag" class="button">
+            <i class="fab fa-artstation"></i> 3D Portfolio
+        </a>
+        <a href="https://www.linkedin.com/in/timucin-uludag" class="button">
+            <i class="fab fa-linkedin"></i> Professional Network
+        </a>
+        <a href="https://www.instagram.com/Timucin.Uludag" class="button">
+            <i class="fab fa-instagram"></i> Process & Social
+        </a>
+        <a href="mailto:contact@timucinuludag.art" class="button">
+            <i class="fas fa-envelope"></i> Contact
+        </a>
+    </div>
+
+    <div class="footer-note">Made by T.U. using HTML/CSS.</div>
+</body>
+</html>
